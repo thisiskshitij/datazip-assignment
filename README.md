@@ -183,16 +183,16 @@ Screenshots to Include
 
  Challenges Faced
 
--Hive Metastore not reachable by OLake
--Port conflicts on 5432 or 9083
--Incorrect YAML format during schema discovery
--Network configuration between Docker containers
--OLake Docker container was not starting.
--Confusion over using Windows paths with Docker volume mounts.
--Uncertainty about whether --writer-path was required.
--Missing required files: --catalog, --destination, and --state.
--Incorrect Docker command syntax for Windows CMD.
--OLake Docker container was not connecting to the PostgreSQL database.
+- Hive Metastore not reachable by OLake
+- Port conflicts on 5432 or 9083
+- Incorrect YAML format during schema discovery
+- Network configuration between Docker containers
+- OLake Docker container was not starting.
+- Confusion over using Windows paths with Docker volume mounts.
+- Uncertainty about whether --writer-path was required.
+- Missing required files: --catalog, --destination, and --state.
+- Incorrect Docker command syntax for Windows CMD.
+- OLake Docker container was not connecting to the PostgreSQL database.
 
 Suggested Improvements
 
@@ -200,9 +200,38 @@ Suggested Improvements
 - Use volume mounts to persist warehouse directory
 - Add Airflow or Prefect for orchestration (bonus)
 
+
+
+
+
  Resources Used
 
 - [OLake GitHub](https://github.com/datazip-inc/olake)
 - [OLake Documentation](https://docs.olake.io/)
 - [Apache Iceberg Docs](https://iceberg.apache.org/)
 - [Apache Spark SQL Docs](https://spark.apache.org/docs/latest/sql-getting-started.html)
+
+![Screenshot (126)](https://github.com/user-attachments/assets/1fd1962c-64f8-4f08-99c2-af49414a0c16)
+![Screenshot (138)](https://github.com/user-attachments/assets/46c3b344-6cc9-45da-9461-7faed1047986)
+![Screenshot (137)](https://github.com/user-attachments/assets/9db3f486-00a8-489e-b3cd-ae9e436fdb5a)
+![Screenshot (136)](https://github.com/user-attachments/assets/98254ff5-10db-42e2-ac58-376ca9149a86)
+![Screenshot (135)](https://github.com/user-attachments/assets/84a01af0-eee1-4d16-99c0-2a34fa9b36fa)
+![Screenshot (134)](https://github.com/user-attachments/assets/77263986-7841-4c56-9e99-fe81dc2ec372)
+![Screenshot (133)](https://github.com/user-attachments/assets/a9902695-0b7d-4e22-b7a8-d358beae60db)
+![Screenshot (132)](https://github.com/user-attachments/assets/1ed0455d-1f35-4625-bde5-e701bfaa2b5e)
+![Screenshot (131)](https://github.com/user-attachments/assets/49891180-6666-49f1-9be2-e9672100b759)
+![Screenshot (130)](https://github.com/user-attachments/assets/e538aeea-4d68-413c-bfda-9caf5f963c1d)
+![Screenshot (129)](https://github.com/user-attachments/assets/602b1525-817e-4947-9280-4dadb21070b5)
+![Screenshot (128)](https://github.com/user-attachments/assets/c9fe8a45-608d-4f31-b5c6-6e71711e0458)
+![Screenshot (127)](https://github.com/user-attachments/assets/947934d4-3ed2-4c63-b1c7-44be630371a5)
+![Screenshot (149)](https://github.com/user-attachments/assets/7791743a-da6f-4909-ac50-81b81ddc3baf)
+![Screenshot (148)](https://github.com/user-attachments/assets/0f4b9b0c-eab4-49b9-92b4-4347d431f9da)
+![Screenshot (147)](https://github.com/user-attachments/assets/d2bb6460-3079-4c2b-b4b0-66c6ceafe450)
+![Screenshot (146)](https://github.com/user-attachments/assets/a19d3797-182a-443d-94c8-9162d67a710a)
+![Screenshot (145)](https://github.com/user-attachments/assets/fd604cfb-2f9e-4cdb-87f7-03a020d860e8)
+![Screenshot (144)](https://github.com/user-attachments/assets/b3fcf75b-f008-423d-a541-985f7c5c8577)
+![Screenshot (143)](https://github.com/user-attachments/assets/c42e4e8d-1e8e-44df-8498-eb2434434d2d)
+![Screenshot (139)](https://github.com/user-attachments/assets/2eaa0073-7d16-4380-95bd-ebd5cce4246d)
+![Screenshot (140)](https://github.com/user-attachments/assets/6239aaa2-21d3-4e47-bb89-bb9d864d62a7)
+![Screenshot (141)](https://github.com/user-attachments/assets/064eda24-74f3-47e6-b46c-72419d1204aa)
+![Screenshot (142)](https://github.com/user-attachments/assets/c41bcb43-2b78-44c3-afa3-1e3c50cbf07b)
